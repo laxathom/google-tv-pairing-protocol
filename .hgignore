@@ -1,0 +1,5 @@
+syntax: glob
+
+bin/
+proto_out/
+polo.jar
