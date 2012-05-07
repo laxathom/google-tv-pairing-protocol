@@ -1,7 +1,10 @@
 // Copyright 2009 Google Inc. All Rights Reserved.
 
+package polo.wire.protobuf;
+
 option java_outer_classname = "PoloProto";
 option java_package = "com.google.polo.wire.protobuf";
+option optimize_for = LITE_RUNTIME;
 
 // OuterMessage - base outer message type used in the protocol.
 
