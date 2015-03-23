@@ -1,0 +1,7 @@
+The [Google TV Pairing Protocol](http://code.google.com/tv/remote/docs/pairing.html) can be used to conduct pairing sessions between clients and servers on a local network, for example, between a mobile phone and Google TV.  In the pairing process, the client contacts the server, and the server issues a challenge for the client to complete.  This usually involves the server showing a code of some kind, and the client echoing that code back to the server.  For example, in the case of Google TV, the server might show an alphanumeric code for the user to enter on the client device's keyboard.
+
+A reference implementation of the Google TV Pairing Protocol, written in Java, is available on this site.  To browse or download the source code, select the [Source](http://code.google.com/p/google-tv-pairing-protocol/source) tab above.
+
+The Google TV Pairing Protocol works in conjunction with the [Anymote Protocol](http://code.google.com/tv/remote/docs/index.html) ([source code](http://code.google.com/p/anymote-protocol/)).
+
+For a working example of an application that uses the Google TV Pairing Protocol, you can download and try out the [Google TV Remote Android](https://market.android.com/details?id=com.google.android.apps.tvremote) application from the Android Marketplace.  This application turns your Android phone into a remote controller for Google TV.  The source code for the Google TV Android Remote application is available [here](http://code.google.com/p/google-tv-remote/).
